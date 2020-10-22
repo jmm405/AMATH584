@@ -940,7 +940,3 @@ for i=1:4
 end
 
 semilogy(diag(S), 'k', 'Linewidth',2);
-
-T1 = 25000*reshape(U(:,1),m,n);
-T2 = 25000*reshape(U(:,4),m,n);
-T3 = 25000*reshape(U(:,7),m,n);
